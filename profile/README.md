@@ -1,5 +1,5 @@
 # Emotus - Your Journey to Emotional Wellness
-
+![Emotus - Your Mood and Mental Wellness Companion](https://github.com/user-attachments/assets/88f4bcae-7147-423a-a66e-8113a764bf5b)
 ## ⭐ **About The Project**
 | **Team ID**  | **Theme**                                                        |
 |--------------|------------------------------------------------------------------|
