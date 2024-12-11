@@ -49,5 +49,5 @@ The cloud infrastructure for Emotus is built on Google Cloud Platform. We use Cl
 
 ### 📱 **Mobile Development**
 
-# **Special Thanks**
+# 💖 **Special Thanks**
 ![Untitled design (15)](https://github.com/user-attachments/assets/3c3dda29-b5d4-44ce-ad27-f2be9332ef85)
