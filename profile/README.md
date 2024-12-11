@@ -31,3 +31,5 @@ The cloud infrastructure for Emotus is built on Google Cloud Platform. We use Cl
 - **Cloud Firestore**: NoSQL database used for storing user data, mood entries, and recommendations.
 - **Cloud Storage**: Used for storing media files (e.g., profile images).
 - **Express.js**: A fast and lightweight web framework used for building the backend API, handling routing, and managing HTTP requests efficiently.
+
+### **Machine Learning**
