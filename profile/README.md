@@ -46,7 +46,20 @@ The cloud infrastructure for Emotus is built on Google Cloud Platform. We use Cl
 - **Express.js**: A fast and lightweight web framework used for building the backend API, handling routing, and managing HTTP requests efficiently.
 
 ### 🤖 **Machine Learning**
+<p align="justify">
+The machine learning infrastructure for **Emotus** is built using TensorFlow to classify user mood and recommend personalized activities based on mood input. We train a **GRU-based model** to classify text input into five mood categories: Anger, Happy, Sadness, Fear, and Love. For activity recommendations, a content-based filtering approach is used to match mood states with suitable activities, ensuring users receive meaningful suggestions based on their emotional state. The system is tailored to process Indonesian language text, utilizing preprocessing tools like **Sastrawi** for stemming and **TF-IDF** for feature extraction. The machine learning setup allows Emotus to provide real-time mood predictions and activity suggestions, enhancing the user experience.
+</p>
 
+### ⚙️ **Tech Stack:**
+
+- **TensorFlow**: A deep learning framework used to build and train the **GRU model** for mood classification, processing sequential text data for accurate mood predictions.
+- **GRU (Gated Recurrent Unit)**: A type of **Recurrent Neural Network (RNN)** optimized for sequence modeling, ideal for processing user input text and classifying moods.
+- **TF-IDF (Term Frequency-Inverse Document Frequency)**: A feature extraction technique used to convert text into numerical data, enabling the model to learn from important keywords and patterns in user input.
+- **Sastrawi**: A **Bahasa Indonesia** stemmer library used to preprocess text and normalize words, ensuring better feature extraction and more accurate classification results.
+- **Scikit-learn**: A library for machine learning in Python, useful for model evaluation, preprocessing, and splitting datasets.
+- **FastAPI**: A modern, fast (high-performance) web framework used for serving the trained machine learning model and providing mood classification and activity recommendations via an API.
+- **Google Colab**: A cloud-based Python environment for running machine learning models and experiments quickly without requiring a local setup.
+  
 ### 📱 **Mobile Development**
 
 # 💖 **Special Thanks**
