@@ -47,7 +47,7 @@ The cloud infrastructure for Emotus is built on Google Cloud Platform. We use Cl
 
 ### 🤖 **Machine Learning**
 <p align="justify">
-The machine learning infrastructure for **Emotus** is built using TensorFlow to classify user mood and recommend personalized activities based on mood input. We train a **GRU-based model** to classify text input into five mood categories: Anger, Happy, Sadness, Fear, and Love. For activity recommendations, a content-based filtering approach is used to match mood states with suitable activities, ensuring users receive meaningful suggestions based on their emotional state. The system is tailored to process Indonesian language text, utilizing preprocessing tools like **Sastrawi** for stemming and **TF-IDF** for feature extraction. The machine learning setup allows Emotus to provide real-time mood predictions and activity suggestions, enhancing the user experience.
+The machine learning model in Emotus classifies user moods from their journal entries using a GRU (Gated Recurrent Unit) architecture, ideal for processing sequential text data. The model is trained on TF-IDF features extracted from preprocessed text to identify moods such as Anger, Happy, Sadness, Fear, and Love. To handle the informal nature of social media language, the Sastrawi stemmer is used to process Indonesian text. The system mitigates class imbalance using techniques like class weights, ensuring better performance for minority classes like Fear and Love. Once the mood is classified, the recommendation system suggests personalized activities based on the user's mood and the time of day, helping users manage their emotional well-being by offering tailored activities for Low, Medium, and High stress levels.
 </p>
 
 ### ⚙️ **Tech Stack:**
