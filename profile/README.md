@@ -52,10 +52,10 @@ The machine learning model in Emotus classifies user moods from their journal en
 
 ### ⚙️ **Tech Stack:**
 
-- **TensorFlow**: A deep learning framework used to build and train the **GRU model** for mood classification, processing sequential text data for accurate mood predictions.
-- **GRU (Gated Recurrent Unit)**: A type of **Recurrent Neural Network (RNN)** optimized for sequence modeling, ideal for processing user input text and classifying moods.
-- **TF-IDF (Term Frequency-Inverse Document Frequency)**: A feature extraction technique used to convert text into numerical data, enabling the model to learn from important keywords and patterns in user input.
-- **Sastrawi**: A **Bahasa Indonesia** stemmer library used to preprocess text and normalize words, ensuring better feature extraction and more accurate classification results.
+- **TensorFlow**: A deep learning framework used to build and train the GRU model for mood classification, processing sequential text data for accurate mood predictions.
+- **GRU (Gated Recurrent Unit)**: A type of Recurrent Neural Network (RNN) optimized for sequence modeling, ideal for processing user input text and classifying moods.
+- **TF-IDF**: A feature extraction technique used to convert text into numerical data, enabling the model to learn from important keywords and patterns in user input.
+- **Sastrawi**: A Bahasa Indonesia stemmer library used to preprocess text and normalize words, ensuring better feature extraction and more accurate classification results.
 - **Scikit-learn**: A library for machine learning in Python, useful for model evaluation, preprocessing, and splitting datasets.
 - **FastAPI**: A modern, fast (high-performance) web framework used for serving the trained machine learning model and providing mood classification and activity recommendations via an API.
 - **Google Colab**: A cloud-based Python environment for running machine learning models and experiments quickly without requiring a local setup.
