@@ -70,5 +70,8 @@ The mobile development process for Emotus focused on creating a robust and user-
 - **Figma**: Used to design wireframes and prototypes, creating an engaging and intuitive user interface.
 - **Android** Studio: The IDE for developing and testing the app, integrating all features seamlessly.
 
+### Screenshot Application
+![Untitled-1](https://github.com/user-attachments/assets/0fb357fd-cf00-4d3d-819f-3fd218c1fca5)![Untitled-w1](https://github.com/user-attachments/assets/54d31e23-2b4b-449d-ac6b-54b986bfca66)
+
 # 💖 **Special Thanks**
 ![Untitled design (15)](https://github.com/user-attachments/assets/3c3dda29-b5d4-44ce-ad27-f2be9332ef85)
