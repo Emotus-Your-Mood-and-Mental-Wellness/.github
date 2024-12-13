@@ -61,6 +61,14 @@ The machine learning model in Emotus classifies user moods from their journal en
 - **Google Colab**: A cloud-based Python environment for running machine learning models and experiments quickly without requiring a local setup.
   
 ### 📱 **Mobile Development**
+<p align="justify">
+The mobile development process for Emotus focused on creating a robust and user-friendly application to enhance the user experience. Built using Kotlin, the app integrates various technologies to deliver seamless functionality. To visualize user mood trends over time, we implemented PhilJay MPAndroidChart, enabling interactive charts and graphs that help users track their emotional states. Retrofit was utilized for efficient communication between the app and backend APIs, facilitating mood prediction requests and data retrieval. The Date class ensures proper recording of user input timestamps, allowing users to observe patterns in their emotional well-being. For UI/UX design, Figma was employed to craft intuitive wireframes and prototypes. All features were developed and tested using Android Studio, ensuring a polished and functional app ready for deployment.
+
+### ⚙️ **Tech Stack:**
+
+- **Kotlin**: The primary programming language for building the Android application, ensuring modern and reliable development practices.
+- **Figma**: Used to design wireframes and prototypes, creating an engaging and intuitive user interface.
+- **Android** Studio: The IDE for developing and testing the app, integrating all features seamlessly.
 
 # 💖 **Special Thanks**
 ![Untitled design (15)](https://github.com/user-attachments/assets/3c3dda29-b5d4-44ce-ad27-f2be9332ef85)
